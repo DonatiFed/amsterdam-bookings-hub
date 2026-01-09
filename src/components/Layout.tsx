@@ -31,9 +31,9 @@ export function Layout({ children }: LayoutProps) {
         <div className="container mx-auto flex h-16 items-center justify-between px-4">
           <Link to="/dashboard" className="flex items-center gap-2">
             <div className="h-8 w-8 rounded-lg bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-sm">SH</span>
+              <span className="text-primary-foreground font-bold text-sm">S</span>
             </div>
-            <span className="font-semibold text-lg hidden sm:block">Student Housing</span>
+            <span className="font-semibold text-lg hidden sm:block">Schedly</span>
           </Link>
 
           {user && (

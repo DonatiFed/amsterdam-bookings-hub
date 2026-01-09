@@ -47,9 +47,9 @@ export default function Login() {
         {/* Logo */}
         <div className="text-center mb-8">
           <div className="inline-flex h-16 w-16 items-center justify-center rounded-2xl bg-primary mb-4">
-            <span className="text-primary-foreground font-bold text-2xl">SH</span>
+            <span className="text-primary-foreground font-bold text-2xl">S</span>
           </div>
-          <h1 className="text-3xl font-bold">Student Housing</h1>
+          <h1 className="text-3xl font-bold">Schedly</h1>
           <p className="text-muted-foreground mt-2">Amsterdam Booking System</p>
         </div>
 

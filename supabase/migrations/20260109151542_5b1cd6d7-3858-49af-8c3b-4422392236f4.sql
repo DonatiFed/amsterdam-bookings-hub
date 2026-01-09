@@ -39,7 +39,8 @@ CREATE TABLE public.kitchen_bookings (
     booking_date DATE NOT NULL,
     slot_type kitchen_slot_type NOT NULL,
     created_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT now(),
-    UNIQUE(booking_date, slot_type)
+    UNIQUE(booking_date, slot_type),
+    UNIQUE(user_id, booking_date, slot_type)
 );
 
 -- Create projector_bookings table
