@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: schedly
+    env: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm run preview
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: VITE_SUPABASE_URL
+        value: https://evhyvueruaxvgmngmizy.supabase.co
+      - key: VITE_SUPABASE_PUBLISHABLE_KEY
+        value: sb_publishable_5c60bdzl1u123p3dR50xgQ_-JSt52OB
